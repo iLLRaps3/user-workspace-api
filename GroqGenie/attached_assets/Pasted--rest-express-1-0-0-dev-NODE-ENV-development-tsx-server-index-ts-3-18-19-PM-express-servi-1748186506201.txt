@@ -1,0 +1,92 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+3:18:19 PM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+3:18:31 PM [express] GET /api/auth/user 304 in 648ms :: {"id":4,"username":"iLL","email":"iLL@gmail.…
+3:18:31 PM [express] GET /api/credits 304 in 36ms :: {"credits":97}
+3:18:32 PM [express] GET /api/chats 304 in 49ms :: [{"id":21,"userId":4,"title":"correctly ","icon":…
+3:18:32 PM [express] GET /api/prompts 304 in 92ms :: []
+3:18:32 PM [express] GET /api/auth/user 304 in 17ms :: {"id":4,"username":"iLL","email":"iLL@gmail.c…
+3:18:32 PM [express] GET /api/credits 304 in 39ms :: {"credits":97}
+3:18:32 PM [express] GET /api/chats 304 in 37ms :: [{"id":21,"userId":4,"title":"correctly ","icon":…
+3:18:32 PM [express] GET /api/prompts 304 in 76ms :: []
+3:18:32 PM [express] GET /api/auth/user 304 in 22ms :: {"id":4,"username":"iLL","email":"iLL@gmail.c…
+3:18:33 PM [express] GET /api/prompts 200 in 19ms :: []
+3:18:33 PM [express] GET /api/credits 200 in 32ms :: {"credits":97}
+3:18:33 PM [express] GET /api/chats 200 in 32ms :: [{"id":21,"userId":4,"title":"correctly ","icon":…
+3:18:34 PM [express] GET /api/auth/user 304 in 18ms :: {"id":4,"username":"iLL","email":"iLL@gmail.c…
+3:18:34 PM [express] GET /api/credits 304 in 33ms :: {"credits":97}
+3:18:34 PM [express] GET /api/prompts 304 in 17ms :: []
+3:18:34 PM [express] GET /api/chats 304 in 31ms :: [{"id":21,"userId":4,"title":"correctly ","icon":…
+3:18:36 PM [express] GET /api/auth/user 304 in 17ms :: {"id":4,"username":"iLL","email":"iLL@gmail.c…
+3:18:36 PM [express] GET /api/credits 304 in 32ms :: {"credits":97}
+3:18:36 PM [express] GET /api/prompts 304 in 17ms :: []
+3:18:36 PM [express] GET /api/chats 304 in 31ms :: [{"id":21,"userId":4,"title":"correctly ","icon":…
+3:18:53 PM [express] GET /api/auth/user 401 in 1ms :: {"message":"Authentication required"}
+3:19:45 PM [express] POST /api/register 201 in 245ms :: {"id":5,"username":"July@july.com","email":"…
+3:19:56 PM [express] POST /api/login 401 in 85ms :: {"message":"Invalid credentials"}
+3:20:02 PM [express] POST /api/login 401 in 20ms :: {"message":"Invalid credentials"}
+3:20:02 PM [express] POST /api/login 401 in 20ms :: {"message":"Invalid credentials"}
+3:20:02 PM [express] POST /api/login 401 in 20ms :: {"message":"Invalid credentials"}
+3:20:12 PM [express] GET /api/auth/google 500 in 2ms :: {"message":"Unknown authentication strategy …
+Error: Unknown authentication strategy "google"
+    at attempt (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:193:39)
+    at authenticate (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at initialize (/home/runner/workspace/node_modules/passport/lib/middleware/initialize.js:98:5)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at <anonymous> (/home/runner/workspace/server/index.ts:37:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/runner/workspace/node_modules/body-parser/lib/types/urlencoded.js:94:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/home/runner/workspace/node_modules/body-parser/lib/types/json.js:113:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/runner/workspace/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at query (/home/runner/workspace/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/runner/workspace/node_modules/express/lib/router/index.js:175:3)
+    at Function.handle (/home/runner/workspace/node_modules/express/lib/application.js:181:10)
+    at Server.app (/home/runner/workspace/node_modules/express/lib/express.js:39:9)
+    at Server.emit (node:events:518:28)
+    at parserOnIncoming (node:_http_server:1141:12)
+3:20:15 PM [express] GET /api/auth/user 200 in 80ms :: {"id":5,"username":"July@july.com","email":"j…
+3:20:20 PM [express] GET /api/auth/user 304 in 17ms :: {"id":5,"username":"July@july.com","email":"j…
+3:20:46 PM [express] GET /api/auth/user 304 in 105ms :: {"id":4,"username":"iLL","email":"iLL@gmail.…
+3:20:46 PM [express] GET /api/credits 304 in 46ms :: {"credits":97}
+3:20:46 PM [express] GET /api/prompts 304 in 83ms :: []
+3:20:46 PM [express] GET /api/chats 304 in 110ms :: [{"id":21,"userId":4,"title":"correctly ","icon"…
