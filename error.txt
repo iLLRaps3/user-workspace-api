@@ -1,0 +1,13 @@
+Vercel CLI 42.3.0
+Retrieving project…
+Deploying ill/theillaistores
+Uploading [--------------------] (0.0B/30.4KB)
+Uploading [=============-------] (21.1KB/30.4KB)
+Uploading [=============-------] (21.2KB/30.4KB)
+Uploading [====================] (30.4KB/30.4KB)
+Inspect: https://vercel.com/ill/theillaistores/5At3Wci2UF15TRqUqUF3CfpxfkSq [1s]
+Production: https://theillaistores-7trolp73g-ill.vercel.app [1s]
+Queued
+Building
+Completing
+Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
