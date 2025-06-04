@@ -1,0 +1,1081 @@
+# **Hailuo AI Subject Reference Model Tutorial**
+
+**Hailuo AI’s Subject Reference Model** enables the recognition of facial features from photos uploaded by users. It can then generate a character with corresponding facial traits and create video scenes featuring that character based on text prompts.
+
+**Subject Reference Model Tutorial**
+
+To generate videos using Hailuo AI’s Subject Reference Model, users must provide two key inputs:
+
+- **Subject's Facial Photo**
+- **Prompt for Video Generation**
+1. **The first step is to click "Try Now" to enter the creation page.**
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/2efb9753-3146-42e5-a675-12687e4edae9/image.png)
+    
+2. The second step is to select the Subject Reference Model, then click "Add Reference Character," upload the image, enter the prompt, click "Create", and after a brief wait, your creation will be ready.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/564f4a1a-f76a-4078-a2d8-aaa1cf9d1515/image.png)
+
+**Subject's Facial Photo**
+The Subject Reference Model requires a clear, recognizable photo of the subject’s face to serve as a reference for generating the character's face in the video. Currently, the model only supports facial recognition for human faces.
+
+Hailuo AI is capable of accurately identifying facial features across various genders, ages, and ethnicities. To achieve optimal video generation results, ensure that the uploaded image meets the necessary specifications, including proper angles and lighting conditions.
+
+### **Specifications**
+
+**Face Count**: The Subject Reference Model only supports uploading single-person photos for facial recognition.
+
+**Image Size**: Resolution should be no lower than 120x120, and the image file should not exceed 20MB.
+
+**Other Requirements**: The face must not be obstructed, and the photo should not be out of focus or contain excessive filters or special effects.
+
+**Standard Facial Photo：**
+
+![1.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/f961c64a-0df9-4bf1-ba59-d90f876f69bd/1.png)
+
+![2.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9cf9458b-88ff-480e-a5d6-23e852651d58/2.png)
+
+![3.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/586d79f0-1280-481c-9c36-8d4c1935ff01/3.png)
+
+![4.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9e6f6ea7-8aae-450b-8756-90d5c7b0eeac/4.png)
+
+![5.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/e57d7139-e3ea-4575-bb2b-d817fa2bc59e/5.png)
+
+![6.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/17f70623-18b5-4219-920a-f7874125546f/6.png)
+
+**Examples of photos not suitable for reference：**
+
+![   Facial obstruction](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/2abd0e78-3db1-4c02-a264-51fe4caa74ff/7.png)
+
+   Facial obstruction
+
+![      Multiple faces](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/0801da53-aae7-4d1e-9b28-b4fed1048b31/8.png)
+
+      Multiple faces
+
+![  Heavy filter effects](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/7ab96505-8833-4b46-bc28-0020a94e9fab/9.png)
+
+  Heavy filter effects
+
+![ Excessive blurriness](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/e68095c5-8b85-4a0d-ab18-103ffe732ef5/10.jpeg)
+
+ Excessive blurriness
+
+### **Subject angle**
+
+The subject angle in the uploaded photo should be either **directly facing the camera** or **slightly turned to the side**.
+
+- **Directly facing the camera**: The subject's face should be directly facing the camera, with clear facial features visible in the frame, providing the most complete facial information.
+- **Slightly turned to the side**: The subject's facial features and facial contours should still be fully visible in the photo, **avoiding profiles or angles where the facial features are not within the frame**.
+
+**Examples of quality camera angles：**
+
+**Generated Video 1**
+
+**Generated Video 2**
+
+[1正面-男.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/95d50659-806f-4769-b41b-12c589b07c8f/1%E6%AD%A3%E9%9D%A2-%E7%94%B7.mp4)
+
+**Facial Photo 1**
+
+![1.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/c26975f6-a9bc-48dc-b021-d804cc3743ed/1.png)
+
+**Prompt 1**
+
+On an overcast day, in an ancient cobbled alleyway, the model is dressed in a brown corduroy jacket paired with beige trousers and ankle boots, topped with a vintage beret. The shot starts from over the model's shoulder, following his steps as it captures his swaying figure. Then, the camera moves slightly sideways to the front, showcasing his natural gesture of adjusting the beret with a smile. Next, the shot slightly tilts down, capturing the model's graceful stance as he leans against the wall at a corner. The video concludes with an upward shot, showing the model smiling at the camera. The lighting and colors are natural, giving the footage a cinematic quality.
+
+[2侧面-男.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/d5085225-1ca3-445e-876a-a8c2d3f679b1/2%E4%BE%A7%E9%9D%A2-%E7%94%B7.mp4)
+
+**Facial Photo 2**
+
+![2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/0d315be4-6c7b-4ba9-a327-585039df9127/2.png)
+
+**Prompt 2**
+
+On an overcast day, in an ancient cobbled alleyway, the model is dressed in a brown corduroy jacket paired with beige trousers and ankle boots, topped with a vintage beret. The shot starts from over the model's shoulder, following his steps as it captures his swaying figure. Then, the camera moves slightly sideways to the front, showcasing his natural gesture of adjusting the beret with a smile. Next, the shot slightly tilts down, capturing the model's graceful stance as he leans against the wall at a corner. The video concludes with an upward shot, showing the model smiling at the camera. The lighting and colors are natural, giving the footage a cinematic quality.
+
+**Generated Video 3                                                                 Generated Video 4**
+
+[3正面-女2.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/cbe9c119-4feb-4fb4-a3b0-de8bb08f8fda/3%E6%AD%A3%E9%9D%A2-%E5%A5%B32.mp4)
+
+**Facial Photo 3**
+
+![3.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/47440b20-759a-4580-9b75-d3e5bdd6995a/3.png)
+
+**Prompt 3**
+
+In a softly lit modern living space, the model wears a cozy off-white knit sweater paired with high-waisted jeans and minimalist white sneakers, exuding a comfortable and casual vibe. Behind her is a large glass window letting in the sunlight, which spills onto the wooden floor. The model sits leisurely on the sofa, flipping through a book, with a cup of hot coffee beside her. The camera slowly zooms in, capturing the moment she gently lifts her head and gazes out the window, her expression calm and gentle. Then, the camera circles around to her side, showing her adjusting her hair.
+
+[4侧面-女.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/df9f1096-de6b-48af-b4ea-94feca76a151/4%E4%BE%A7%E9%9D%A2-%E5%A5%B3.mp4)
+
+**Facial Photo 4**
+
+![4.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/0e2281be-67d4-41b9-95c7-c62371103d14/4.png)
+
+**Prompt 4**
+
+In a softly lit modern living space, the model wears a cozy off-white knit sweater paired with high-waisted jeans and minimalist white sneakers, exuding a comfortable and casual vibe. Behind her is a large glass window letting in the sunlight, which spills onto the wooden floor. The model sits leisurely on the sofa, flipping through a book, with a cup of hot coffee beside her. The camera slowly zooms in, capturing the moment she gently lifts her head and gazes out the window, her expression calm and gentle. Then, the camera circles around to her side, showing her adjusting her hair.
+
+**Examples of subject angles not suitable for reference：**
+
+Facial features are not fully visible in the fram          Profile view with insufficient facial features
+
+![a.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/f9683cf0-6553-489d-926f-1266a184a5c3/a.png)
+
+![c.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/0741fae2-d176-4923-bde5-666867458f11/c.png)
+
+![ Facial features are not fully visible in the frame](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/d4e59e2b-1932-4187-92c9-88b50afbbba3/b.png)
+
+ Facial features are not fully visible in the frame
+
+![        Profile view with insufficient facial features](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/524ee19d-41c2-41ca-b6c7-67712369475e/d.png)
+
+        Profile view with insufficient facial features
+
+### Facial lighting
+
+To achieve the most accurate video representation of the face from the uploaded photo, the subject’s face should avoid **large areas of dark shadows or localized overexposure**. The lighting should be **natural**, with some subtle shadow details on the face for better depth.
+
+**Examples of standard facial lighting：**
+
+**Generated Video 5                                                            Generated Video 6**
+
+[5光照-男333262437424898052.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/cbf7dd3f-4d4b-491f-98a7-350d027479c5/5%E5%85%89%E7%85%A7-%E7%94%B7333262437424898052.mp4)
+
+[6光照-女.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/c07a0b06-7cc5-46a6-a065-233fc6ef7815/6%E5%85%89%E7%85%A7-%E5%A5%B3.mp4)
+
+**Facial Photo 5**
+
+![5.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/697a5ec7-6da8-4cdd-86b8-118b11e06f55/5.png)
+
+**Prompt 5**
+
+A cowboy rides a horse through a snowy landscape, with a rifle strapped to his back. He wears a wide-brimmed hat, and his rugged, striking facial features stand out prominently. In the distance behind him is a tall spruce forest, beyond which rise the breathtaking, snow-covered mountains. The ground is blanketed in pristine white snow as the cowboy slowly rides through the cold, open wilderness. His gaze is fixed ahead, exuding a sense of determination and bravery.
+
+**Facial Photo 6**
+
+![6.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/eda034f2-7d85-4bf2-b65a-4c92f8e14ff2/6.png)
+
+**Prompt 6**
+
+A model, dressed in a vintage apron with a ribbon tied around her neck and high-heeled ankle boots, stands behind the dimly lit wooden bar of a tavern. She holds a glass filled with whiskey in one hand, while the background features a wooden shelf lined with bottles and oil lamps. Her curly hair cascades over her shoulders, and a mischievous smile plays on her face as the camera moves dramatically.
+
+**Examples of unsuitable facial lighting for reference：**
+
+![Shadows obscure the             facial features](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/38f92785-1c85-47e7-91f3-5cf9b41fce38/11.png)
+
+Shadows obscure the             facial features
+
+![   Complexed facial                                          shadows ](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/ae93b4c8-60ac-4da8-b744-797e84c25a89/22.png)
+
+   Complexed facial                                          shadows 
+
+![        Excessive or           unnatural facial               lighting colors](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9bbe5aea-f564-426d-a5c2-1fab21bcc0e5/33.png)
+
+        Excessive or           unnatural facial               lighting colors
+
+![        Overexposure](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/ced5aead-a727-45ac-a3c9-c777c64bbeb4/44.png)
+
+        Overexposure
+
+## Prompt for Video Generation
+
+The generation logic of the Subject Reference Model is similar to that of text-to-video generation. For more details, please refer to the Text-to-Video Prompt tutorial.
+
+The prompt used for the Subject Reference Model should focus on **a single subject** to achieve the most accurate results.
+
+If the prompt involves multiple subjects, additional descriptions of the specific subjects can be included. Hailuo AI can identify the corresponding facial features based on **age and gende**r and generate the appropriate subject accordingly.
+
+### How to accurately execute prompts with multiple subjects？
+
+1. Adding gender information of the face in the **promp**t can help Hailuo AI lock onto the correct subject and generate the expected scene.
+
+**Generated Video 7                                                           Generated Video 8**
+
+[7性别-男.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/dc99c91c-59f1-4f18-8e83-7bd9a6218fd3/7%E6%80%A7%E5%88%AB-%E7%94%B7.mp4)
+
+[8.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/d4b81456-6b74-441c-a8ab-a1362b9c29fd/8.mp4)
+
+**Facial Photo 7**
+
+![7.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9aaa7629-8a7e-4bad-8fec-87c195dd073e/7.png)
+
+**Prompt 7**
+
+In the scene, **a black-haired man** wearing a suit sits at a European-style dining table, looking at the camera. Next to him is a woman with brown hair, smiling and gazing at the camera.
+
+**Facial Photo 8**
+
+![8.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/23ccc39d-964d-4f59-a0e5-29f7d4c62998/8.png)
+
+**Prompt 8**
+
+In the scene, a black-haired man in a suit sits at a European-style dining table, looking at the camera. Beside him is **a woman with brown hair**, smiling and gazing at the camera.
+
+2. Adding age information of the face in the **prompt** can help Hailuo AI lock onto the correct subject and generate the expected scene.
+
+**Generated Video 9                                                           Generated Video 10**
+
+[9年龄.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/4accfdd6-4bda-477b-b060-c5dba7db9654/9%E5%B9%B4%E9%BE%84.mp4)
+
+[10.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/bfbf8048-8d5c-402f-9c00-970260332760/10.mp4)
+
+**Facial Photo 9**
+
+![9.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/c1e4167e-5b4f-4efc-b588-9b0e30272d50/9.png)
+
+**Prompt 9**
+
+An elderly man in a shirt is holding **a young girl** in a red dress. They are sitting together in a cozy indoor setting, embracing and smiling at each other.
+
+**Facial Photo 10**
+
+![10.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/85b1ff79-7862-4e05-baa2-e9f1eab14469/10.png)
+
+**Prompt 10**
+
+**An elderly man** in a shirt is holding a young girl in a red dress. They are sitting together in a warm, cozy indoor setting, embracing each other and smiling.
+
+# **Hailuo AI Text to Video Tutorial**
+
+## Getting Started : What is Prompt
+
+Prompt is the key to the world of generated AI, constructed from your inspiration and creativity.
+
+Whether you are a newcomer to AI or a veteran who is already proficient in using AI to empower productivity, you can easily master the skills of writing prompts through a clear structure and a flexible way of expression.  The vision of “one person + one AI = one professional crew” is right around the corner.
+
+To improve the quality of video results, we have developed two Prompt formulas of your use:
+
+### **1. Basic Prompt Formula**
+
+Basic Prompt Formula is designed for those who are uncertain about the exact videos they wish to create, or those who seek to use Hailuo AI as a source of inspiration. This type of prompt will offer you a range of more incentive visual ideas.
+
+**❤️Basic Prompt Formula**= **Main Subject + Scene + Motion**
+
+**Main Subject:** This core message of the video can be a person, an animal, another object or an imaginary object that does not exist.
+
+**Scene：**The scene describes the environmental information of the video, etc a library, a coffee shop ...... or even a fantastical fictional space.
+
+**Motion:** Motion is the description of the main object's moving status in the video, such as stillness, movement; the transformation of the environment and space, and so on.
+
+> Example
+> 
+> 
+> A puppy runs in the park.
+> 
+> A woman with an umbrella walks down a rainy street.
+> 
+> A small stream flows quietly in a valley.
+> 
+
+### **2. Precise Prompt Formula**
+
+The Prompt Precision Formula is designed for users requiring advanced camera movement or image presentation, aiming for a more professional-grade video production.  Precise and detailed prompts can enhance the visual quality of the footage.
+
+Precise Prompt Formula = **Main Subject** + **Scene** + **Motion** + **Camera Movement** + **Aesthetic Atmosphere**
+
+**Camera Movement:** You can use common camera movements, such as tracking, zooming, panning, handheld and other camera movements to restrict the final presentation.
+
+**Aesthetic Atmosphere**: You can describe the visual style and the sense of atmosphere to get a better result.
+
+> For Example：
+> 
+> 
+> A couple sit on a park bench communicating. The camera maintains a fixed shot of the couple. The color tone of the picture is warm, the atmosphere is cozy.
+> 
+> A lamb is grazing in a meadow. The camera slowly pushes forward the lamb. The color tone of the picture is natural and realistic.
+> 
+> A man in a suit eats noodles in a noodle shop. The camera gradually pulls away to show the noisy environment of the noodle shop. The picture has a natural color tone.
+> 
+
+### 3. Tips for using Prompt Formulas
+
+There's no right or wrong to write a prompt. But overall, prompt writing follows 2 main basic principles:
+
+- The more precise the expression is, the more accurate the result will be.
+- The richer the expression gets, the better the overall effect will be.
+
+## Intermediate: How to achieve top performance
+
+### Precise Camera movement
+
+Hailuo AI is adept at responding effectively to various camera movements. It can provide professional video users with well-defined video footage.
+
+- **Add detailed orders to the camera movement**
+
+> For example, “Lens rotating down” can be optimized as :
+> 
+> 
+> “The camera descends slowly and then wraps around to the right as it descends.”
+> 
+- **Add detailed descriptions to the change made with camera movement**
+
+> For example, “The camera shoots the giraffe from the bottom up” could be optimized as:
+> 
+> 
+> “The camera starts with a close-up of the giraffe's feet, slowly rising to capture the giraffe's body, and finally stops at the giraffe's face, showing giraffe's facial expression in close-up.”
+> 
+- **Limit the length of the camera movement to a reasonable 5-6 seconds:** avoid overly complex shots that can lead to generation failures
+
+The following example shows the result of adding 【precise camera movement】and 【detailed changes in the frame】in the prompt.
+
+**Example:** The green highlight** is the output responding to the change of the prompt**
+
+**Generated Video 1** 
+
+**Generated Video 2**
+
+[1.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/cdab6af5-e834-4fdb-8227-07c24811c7cc/1.mp4)
+
+[2.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/23298f90-b9a1-4c6d-bd44-1d7edb53f0ef/2.mp4)
+
+**Prompt 1**
+
+The camera begins with an overhead shot of a mysterious forest clearing, with a female warrior in armor standing alone in the center of the clearing. Her armor shimmers with a cold silver light in the moonlight, and the trees around her cast dappled shadows. The camera begins to slowly descend and hover around her, as the perspective changes, the longsword in her hand can be seen trembling slightly, with undried blood remaining on the blade, the camera continues to wrap around, sliding from side to side, gradually drawing in closer to capture the side of her determined face. Her slightly clenched lower lip could be seen, and a few loose strands of hair on her face were soaked in sweat and plastered to her forehead. As the camera circled around to her front, the image became tighter, the focus gradually coming to rest on her face. By now, the forest in the background has blurred into a dark shadow. The camera eventually stops at a close-up of her front, focusing on her sharp eyes. The moonlight hits her face, outlining every detail of her face.
+
+**Prompt 2**
+
+The camera looks down on a moonlit forest clearing. The camera rotates around a female warrior in silver armor holding a longsword, after which the camera drops down to capture the side of the female warrior, who has blood on her longsword. The camera continues to circle, sliding past the side and gradually pulling in closer to capture the side of the warrior woman's face, after which the camera wraps around to her front, with the focus gradually settling on a close-up of her face.
+
+**Generated Video 3**
+
+[3 (1).mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/97c0bd3e-4bb6-4696-a29c-db0f46979d21/3_(1).mp4)
+
+**Prompt 3**
+
+The camera wraps around to capture a female warrior in silver armor standing in the jungle at night.
+
+### **Precise Aesthetic Control**
+
+In addition to precise camera movement, Hailuo AI is able to accurately recognize aesthetics and ambience descriptions in the prompt and generate beautiful graphics and dynamic designs accordingly.
+
+The following example shows the results of adding [Aesthetic and Atmospheric Descriptions] to the prompt, with an increase in output quality.
+
+**Example 1:** The highlighted portions of the Prompt are additional aesthetic descriptions.**
+
+**Generated Video 4** 
+
+**Generated Video 5**
+
+[4.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/32a62a73-39c6-47e8-b0dc-4a62675a78da/4.mp4)
+
+[5.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/2871aa2b-71c6-4405-a382-d779b0e76670/5.mp4)
+
+**Prompt 4**
+
+On the streets of a modern city, the camera first follows a motorcycle as it speeds between skyscrapers. The wheels leave deep imprints on the wet ground as the surrounding buildings sway in the ever-moving wind. The camera pans quickly right to catch a police car following close behind, its lights flashing, reflecting the neon lights and traffic on the street in brilliant colors. The bustling cityscape blurs into a flow of light in the background, and the movements of the motorcycle and police car seem unusually hurried and tense.
+
+**Prompt 5**
+
+In the modern city, the camera first follows a motorcycle as it speeds through the buildings, then pans quickly right to capture the police car in hot pursuit behind it, with the busy streets, traffic and lights as a blurred backdrop.
+
+**Generated Video 6**
+
+[6.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/c46684ec-99d4-47e2-92fc-73603c400369/6.mp4)
+
+**Prompt 6**
+
+The motorcycle sped through the city with police cars in hot pursuit.
+
+**Example 2:** The same basic prompt can be rendered very differently with different aesthetic ambience descriptions.**
+
+**Generated Video 7** 
+
+**Generated Video 8**
+
+[7.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/8904bd83-90a8-420b-930d-3c58400387f0/7.mp4)
+
+[8.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/4b03cc08-ce45-4a72-a747-4afa32213636/8.mp4)
+
+**Prompt 7**
+
+The camera captures a woman sitting in a cafe, the woman looks up in thought, the camera slowly moves to capture the street outside the window, the image is gray in tone, the colors are undersaturated and the atmosphere is somber.
+
+**Prompt 8**
+
+The camera shoots a woman sitting in a cafe, the woman looks up at the window, the camera slowly moves to capture the street outside the window, the image shows warm tones, rich colors and a relaxing atmosphere.
+
+**Generated Video 9**
+
+**Generated Video 10**
+
+[9.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/f6c5ff71-4b38-4569-99d1-a1659d95a8a0/9.mp4)
+
+[10.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/31cc75c0-5691-4fa3-90d9-d39b6182129c/10.mp4)
+
+**Prompt 9**
+
+A male in a trench coat walks down a street in a modern city, the camera follows the male's movement from behind, the image has a grayish tone and a somber atmosphere.
+
+**Prompt 10**
+
+A male in a trench coat walks down a street in a modern city, and the camera follows the male's movements from behind, with a brilliant sci-fi atmosphere and colorful tones.
+
+**Generated Video 11**
+
+**Generated Video 12**
+
+[11.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/ad661333-256c-4c07-99ab-b9155d3452ad/11.mp4)
+
+[12.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/07ebf267-404e-4822-8a94-e8c560b16fdd/12.mp4)
+
+**Prompt 11**
+
+The camera captures a seaside wilderness with grass blowing in the sea breeze and a vast ocean in the distance, with somber tones and low color saturation.
+
+**Prompt 12**
+
+The camera shoots a seaside wilderness, the grass is blown by the sea breeze, and in the distance is a vast ocean, the color tone of the picture is warm, and the picture has a warm atmosphere.
+
+**Generated Video 13**
+
+**Generated Video 14**
+
+[13.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/ea0d9e0e-ffbc-4f66-bc90-1aed556ed44f/13.mp4)
+
+[14.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/73e0c587-bbdf-4167-8e30-4c8a3f9df496/14.mp4)
+
+**Prompt 13**
+
+Close up shot of a boy reading a book at a desk in a room with strong contrasts of light and dark, gray tones, and a tense, depressing atmosphere.
+
+**Prompt 14**
+
+Close up shot of a boy reading a book at a desk in a room with warm colors and a cozy, warm atmosphere.
+
+**Generated Video 15**
+
+**Generated Video 16**
+
+[15.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/713dbdcc-b7e2-4bc5-86cd-06c498f1dcca/15.mp4)
+
+[16.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9723bb28-d4da-428c-bbf6-90a340e28ac9/16.mp4)
+
+**Prompt 15**
+
+Two women driving a blue Cuban convertible sedan on a seaside highway, the camera looks down on the car from the air, following the car's movement, the image has a somber tone, very low color saturation, and a depressing atmosphere.
+
+**Prompt 16**
+
+Two women driving a blue Cuban convertible sedan on a seaside highway, the camera looks down on the car from the air, following the car's movement, the image has bright, rich tones and a relaxed atmosphere.
+
+## **Prompt optimization: lens description and aesthetic expression**
+
+Hailuo AI's precise lens control and aesthetic understanding can help users generate more responsive outputs
+
+**Generated Video 17**
+
+**Generated Video 18**
+
+[17.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/050f61d2-2328-4a02-8dee-043854ccbe4b/17.mp4)
+
+[18.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/85a3a3d3-9712-473f-8a26-1ab01b512a4c/18.mp4)
+
+**Original Prompt 17**
+
+A man on the rooftop of a tall building at night looks down at the city.
+
+**Optimized Prompt 18**
+
+Under the deep blue night sky, the neon lights of the city are reflected in puddles of freshly rained water on the rooftops of tall buildings. The camera slowly rises from the reflection in the water, through the rain, to reveal a black figure standing on the edge of a rooftop. The camera then continues to rise to show a sprawling modern cityscape. Finally, the camera freezes and the lone figure standing on the edge stares at the city, the interplay of light and shadow creating a cold atmosphere.
+
+---
+
+**Generated Video 19**
+
+**Generated Video 20**
+
+[19.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/ff717627-f728-476d-b04f-cccb94e477f3/19.mp4)
+
+[20.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/d48b2030-e467-44da-aeee-9c2134d4f03b/20.mp4)
+
+**Original Prompt 19**
+
+The camera goes through the glass and focuses on a pensive lady in the window.
+
+**Optimized Prompt 20**
+
+The camera shoots a modern glass-look high-rise building through a clear glass, the building shimmering with reflected light in the sunlight. The camera then closes in on a window, where reflections on the glass show a bustling cityscape outside. The camera slowly pulls back and through the glass, eventually focusing on a woman in a suit inside the window. She sits in a minimally decorated office, staring intently at a computer screen. Her face appears pensive and introspective in the soft light, contrasting with the hustle and bustle outside the window. The office is decorated in a simple and modern way, emphasizing her focus and introspection.
+
+---
+
+**Generated Video 21**
+
+**Generated Video 22**
+
+[21.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/0c2600e5-2c73-454e-8854-223dfed9e2a5/21.mp4)
+
+[22.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/5b8c2dcb-52fe-4072-be40-d636eea269cd/22.mp4)
+
+**Original Prompt 21**
+
+In a forest covered in dark clouds, the young boy sprints through the mud with his sword in his hand, his sleeves swinging in the wind. The camera pushes forward and lightning illuminates his resolute face.
+
+**Optimized Prompt 22**
+
+In a forest shrouded by dark clouds, which were low in the sky, the young boy held a sharp sword with a cold glint in his hand, and walked quickly on the muddy ground with firm footsteps. His sleeves hunt in the cold wind, as if adding a touch of vigor to his determination at this moment. The camera slowly advances from his side, and the trees in the background sway in the wind, making it look particularly eerie. Suddenly, a bolt of lightning breaks through the gloomy sky, instantly illuminating the young boy's determined and resolute face as he looks ahead with determination in his eyes.
+
+---
+
+**Generated Video 23**
+
+**Generated Video 24**
+
+[23.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9fff9aaa-d705-4eca-84dd-7ea0631bb23c/23.mp4)
+
+[24.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/6dc9d191-dbbf-483f-aeee-0eb23a1b588a/24.mp4)
+
+**Original Prompt 23**
+
+When the boy plays the game, the character on the screen suddenly comes to life and interacts with the boy, blending reality with the virtual.
+
+**Optimized Prompt 24**
+
+In a dimly lit room, a young boy is captured in close-up, his eyes glued to the glowing screen of a game console. The camera is slightly above the horizon, focusing on his concentrated expression as his fingers deftly manipulate the controller. Suddenly, the mood changes as the figure of a game character suddenly appears and breaks through the screen. The camera has a shallow depth of field and pans smoothly between the boy and the now three-dimensional figure, blurring the edges of the console and the wall behind it, which is plastered with posters for various games. The boy interacts with the character in surprise, his movements reflecting the excitement and disbelief of the moment. The characters are vivid and detailed, jumping and dancing around the room and playing with the boy. The camera captures the fantastical scene with dynamic angles and fluid movements, enhancing the sense of wonder and movement through a skillful combination of slow motion and fast editing. Subtle changes in lighting enhance the realism of the characters' movements, with shadows and highlights interplaying on the boy and the characters.
+
+# **Hailuo AI Image to Video Tutorial**
+
+## **Image to Video Tutorial**
+
+### **1. I2V Basic Prompt Formula**
+
+The image used in image-to-video generation appears as the first frame of the video, defining the subject's appearance and the basic aesthetic style of the video. Therefore, compared to text-to-video prompts, image-to-video prompts can appropriately reduce the amount of information.
+
+✅ Basic Prompt Formula=Main Subject in the first frame + Motion/Change
+
+Main Subject in the first frame：The objects in the scene, including key details and environmental information, are precisely recognized by Hailuo AI, which can identify characters, objects, and other visual elements in the image and generate videos based on the prompt requirements.
+
+Motion/ Change：Motion is the description of the main object's moving status in the video, such as stillness, movement; the transformation of the environment and space, and so on.
+
+---
+
+**Specific Cases：（The image was generated using MidJourney.）**
+
+**Generated Video 25**
+
+**Generated Video 26**
+
+[25.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/ee70929f-3738-4477-9786-8dcda7cedf06/25.mp4)
+
+[26.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/06a96d5f-932a-4c8a-b97c-dc55de695e62/26.mp4)
+
+**Image 25**
+
+![Clipboard_Screenshot_1732184329.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/095207c1-ad82-42b7-b67d-b354d832c82e/Clipboard_Screenshot_1732184329.png)
+
+**Prompt 25**
+
+In the scene, a small dog emits a blue light from its eyes. The messy clothes in front of the dog also begin to glow blue and slowly float into the air, folding neatly on their own before landing in front of the dog. Afterward, the blue light in the dog's eyes fades away.
+
+**Image 26**
+
+![Clipboard_Screenshot_1732184343.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/ddb24df8-a6a0-48cd-939c-55997f78e7a9/Clipboard_Screenshot_1732184343.png)
+
+**Prompt 26**
+
+A blue furry creature in the scene is constantly stirring a steaming pot of soup. Then, the blue creature blows on the pot, causing the soup in the bowl in front of it to freeze into a block of ice.
+
+### **2. I2V Precise Prompt Formula**
+
+Adding camera details and atmosphere information to the basic formula allows for more precise control over the video, resulting in more dynamic or distinctly stylized outputs.
+
+✅  Precise Prompt Formula= Main Subject in the first frame + Motion/Change +Camera Movement + Aesthetic Atmosphere
+
+Camera Movement：Image-to-video generation can also precisely control camera movements. Using the information in the image as a reference in the prompt can lead to more accurate results.
+
+Aesthetic Atmosphere：Although the first frame establishes the visual tone and atmosphere of the video's beginning, Hailuo AI's image-to-video generation can still adjust the visual aesthetics and mood to produce content that better aligns with expectations.
+
+---
+
+**Specific Case：（The image was generated using MidJourney.）**
+
+**Generated Video 27**
+
+**Generated Video 28**
+
+[27.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/fcb14a47-4d1a-43a6-92ce-fdc9f84b7776/27.mp4)
+
+[28.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/1da1b218-6d80-454c-8de7-fb1dbc616438/28.mp4)
+
+**Image 27**
+
+![Clipboard_Screenshot_1732184363.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/597edbed-435e-416d-ba7a-b3a58802c37e/Clipboard_Screenshot_1732184363.png)
+
+**Prompt 27**
+
+A cat in the scene runs quickly toward the camera, with white electric sparks emanating from its eyes. Its entire body becomes surrounded by electricity as it runs faster and faster. The scenery on both sides rushes backward rapidly, creating motion blur that transforms into a glowing white time tunnel.
+
+**Image 28**
+
+![Clipboard_Screenshot_1732184370.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/b92808a3-60c9-4d1e-83cf-f9860e80d884/Clipboard_Screenshot_1732184370.png)
+
+**Prompt 28**
+
+The camera pulls back as a man runs toward it. Shadows of figures rapidly close in from behind, growing larger and larger. As one shadow draws near, it reveals a humanoid creature with a goat-like face, its features illuminated by a yellowish light. The color tone of the scene shifts to an eerie palette, creating a chilling and terrifying atmosphere.
+
+# **The Advantages of Hailuo AI**
+
+## **Vivid Emotional Expression**
+
+Hailuo AI possesses top-tier facial expression capabilities in the current AI video field, capable of generating diverse and vivid expressions based on emotion-related prompts. Additionally, Hailuo AI can precisely control the intensity of a single expression and achieve smooth transitions between multiple expressions.
+
+**Generated Video 29**
+
+**Generated Video 30**
+
+[29.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/22653767-d921-4a1b-a2ae-2ca21d5603a5/29.mp4)
+
+[30.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/f67e313c-c5f0-4b71-9248-72de01a52561/30.mov)
+
+**Prompt 29**
+
+In a café, a girl is listening to the boy sitting across from her. Her expression starts off happy, suddenly turns to surprise, and then shifts to sadness.
+
+(From X user: el.cine)
+
+**Prompt 30**
+
+A woman walks toward the camera, crying, with the destroyed ruins of a city behind her.
+
+**Generated Video 31**
+
+[31.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9ee41db9-7c26-4876-955e-4f5a5fb4f3eb/31.mp4)
+
+**Prompt 31**
+
+A blond boy sits in a brightly lit classroom, surrounded by many classmates. He looks at the test paper on his desk with a puzzled expression, furrowing his brow. Then, he closes his eyes and begins to cry sadly. After he starts crying, the classmates around him turn their heads to look at him.
+
+## **Cinematic Explosion Effects**
+
+Hailu AI can easily create cinematic-quality explosion effects.
+
+**Generated Video 32**
+
+**Generated Video 33**
+
+[32.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/4d3209bf-63a9-4f31-bcfe-6ae37f0c84bb/32.mp4)
+
+[33.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/9e37b755-df44-4ee7-bd56-576f66c2a95f/33.mp4)
+
+**Prompt 32**
+
+In an abandoned factory area illuminated by flames, a white sedan weaves through a massive explosion. Burning buildings and flying debris trace brilliant fiery arcs in the air. The low-angle shot follows the car as it races through the explosion, capturing its thrilling speed and the dazzling light of the flames. 
+
+**Prompt 33**
+
+An explosion occurs in an abandoned factory, and a massive mechanical dragon emerges from the ruins.
+
+**Generated Video 34**
+
+**Generated Video 35**
+
+[34.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/f2b0635a-5703-41ca-8762-6d05c48b370e/34.mp4)
+
+[35.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/bbe7a7af-fe4f-4bb4-9105-2bacdb7c5566/35.mp4)
+
+**Prompt 34**
+
+In a dilapidated warehouse, dust flies through the air, and the atmosphere is thick with smoke and the scent of gunpowder. Suddenly, explosives detonate, and intense flames and thick smoke instantly engulf the entire scene, with flames dancing on the walls. Broken wooden planks and metal debris scatter in all directions, while the camera shakes violently from the explosion's impact. The surrounding light flickers and shifts unpredictably with the bursts of fire.
+
+**Prompt 35**
+
+The camera captures a low-angle shot of a speeding car racing through the night, its wheels spinning fiercely in the fiery glow on the ground. The camera rapidly zooms in on the car, when suddenly, a shockwave from an explosion violently lifts the car's body. Immediately after, the camera spins quickly, capturing another car emerging from the smoke of the explosion, as the intense chase unfolds, intertwining with flashes of fire and darkness.
+
+## **Concept Combination**
+
+Hailuo AI possesses strong combination abilities, allowing it to combine various different materials/characteristics in any configuration and freely created the desired visual scenes.
+
+**Generated Video 36**
+
+[36.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/3f73da04-8093-4392-974b-c4dac1b9936a/36.mp4)
+
+**Generated Video 37**
+
+[37.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/bf803e48-b446-48ad-8fbc-7b728b030fcd/37.mp4)
+
+**Prompt 36**
+
+A big cat with zebra stripes walks across the vast desert.
+
+**Prompt 37**
+
+A horse with leopard spots walks slowly through the snow.
+
+**Generated Video 38**
+
+[38.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/db8924e8-caba-4536-96e5-ff5e5f7e06de/38.mp4)
+
+**Generated Video 39**
+
+[39.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/be1b9b92-e922-45fe-b0e4-df14b25ad283/39.mp4)
+
+**Prompt 38**
+
+A cute little rabbit with dragonfly wings flies in the blue sky.
+
+**Prompt 39**
+
+A close-up shot shows a spider made of white crystal crawling on a child's palm. The spider has vibrant crystal spires growing on its back, reflecting a spectrum of colorful light, surrounded by the darkness of a cave.
+
+# **Practical Application Cases - (Movies, Commercials, Promotional Videos, Short Videos)**
+
+## **Text-to-video Cases for Practical Application**
+
+**T2V Advantages：**convenient and efficient production; offering diverse creative ideas.
+
+**T2V Disadvantages**： difficult to ensure the stability of the subject/visual style.
+
+### **1 Mainly-Used Cases**
+
+The practical use cases of text-to-video are primarily for creating **empty shots, non-narrative shots, and large-scale special effects shots**.
+
+**Generated Video 40**
+
+**Generated Video 41**
+
+[40.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/01e7f8f2-74ff-4e81-a75f-fb2e2db51400/40.mp4)
+
+[41.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/0692ca1e-3fef-43b2-b598-630cc3929760/41.mp4)
+
+**Case 40** — "Sci-Fi Trailer"
+
+Traditional sci-fi imagery features similar visual elements. By creating empty shots with these common visual elements, we can produce scenes with similar settings and aesthetic styles. Using high-quality shots such as "explosions" as key rhythm points, a tense and thrilling sci-fi movie teaser is created.
+
+**Case 41** —— "Avalanche Disaster Movie Trailer"
+
+Based on the theme of "avalanche," multiple sets of **empty shots and large-scale scene**
+
+combinations are designed to make the most of Hailuo AI's outstanding performance in text-to-video generation. Through rhythmically strong editing, a teaser is created with a simple storyline that ties the shots together.
+
+### **2 Specially-Used Cases：Montage with Similar Objects**
+
+Based on Hailuo AI's rich scene realism capabilities, in fast-paced montage scenes, similar prompts can be used to generate a variety of scenes with similar compositions, allowing for seamless transitions. This maximizes the avoidance of subject stability issues without affecting the narrative structure.
+
+**Montage with Similar Objects** — "The Sci-Fi Portal Across Time and Space"
+
+**Generated Video 42**
+
+[42.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/4aa376ae-21b8-4baa-b422-80d78e6e9e17/42.mp4)
+
+The similar "sci-fi portal" image is generated in different time and space settings, with the shots quickly assembled together, creating a highly dynamic response to the narrative structure of crossing time and space.
+
+### **PS：Ways to Improve Subject Stability**
+
+Based on Hailuo AI's high-quality prompt response capabilities, text-to-video can be used to maintain specific shape consistency.
+
+By testing the consistency of shape description prompts, stable visual elements are identified, and these are repeatedly used to maintain a certain level of stability.
+
+✅Subject Elements — **Hairstyle + Age/Gender + Clothing Color + Environment**
+
+**Hairstyle/Clothing:** These elements stabilize the character's head image.
+
+**Age:** Generates characters of a similar age.
+
+**Environment:** The same environmental space, especially lighting, helps enhance the audience's "consistency" perception of the character's image.
+
+For example, in environments with high contrast between light and shadow, retaining minimal facial details of the character helps maintain "**consistency**" in their appearance.
+
+**Cases：**
+
+**Generated Video 43**
+
+**Generated Video 44**
+
+[43.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/c9d058e1-aae5-4c0c-9aa5-08ebe0e21a0e/43.mp4)
+
+[44.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/18cb14e1-00a3-4913-9318-5faba92b8a63/44.mp4)
+
+**Case 43**
+
+A close-up of a brown-haired little boy wearing a brown shirt, facing the camera. His face is illuminated by candlelight, and his expression is a surprise. The environment is dimly lit with a strong contrast between light and shadow.
+
+**Case 44**
+
+A close-up of a brown-haired little boy wearing a brown shirt, with his face illuminated by sunlight. His expression is one of surprise, and the environment has a strong contrast between light and shadow.
+
+**Generated Video 45**
+
+[45.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/8ee44cab-a801-45c2-b2b5-c04d461a3c3b/45.mp4)
+
+**Case 45**
+
+A close-up of a brown-haired little boy wearing a brown shirt, facing slightly away from the camera, with his head tilted upward as he walks through a dark green forest. His face is illuminated by an oil lamp he holds in his hand, and the environment is dimly lit with a strong contrast between light and shadow.
+
+## **Image-to-video Cases for Practical Application**
+
+**I2V Advantages：**Precise control of the visual subject; precise control of the visual aesthetics.
+
+**I2V Disadvantages：**The initial workload is relatively large; the margin for error in creation is low; creative freedom is relatively limited.
+
+### **1 Mainly-Used Cases**
+
+Image-to-video ensures the stability of the video's subject information, making it suitable for narratives with fixed subjects. It allows for the continuation of video segments from static frames, completing the narrative function.
+
+**Examples: The segment is excerpted from the HailuoAI promotional video "Magic Wheel."**
+
+Using a set of images with the same subject, a video is generated to meet the narrative requirements, ensuring consistency of the subject's appearance in the story's visuals. *(The video sound is post-production.)*
+
+**Generated Video 46**
+
+**Generated Video 47**
+
+[46.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/4f429343-e087-4e48-8c3b-81dbead5c463/46.mp4)
+
+[47.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/7c24bd35-84d8-4d72-82af-8d3ce5604465/47.mp4)
+
+**Image**
+
+**Plot 46**
+
+The little evil dragon police officer proudly introduces the Magic Wheel to the camera.
+
+**Image**
+
+**Plot 47**
+
+The little evil dragon police officer feels nervous about the world spiraling out of control but still tries to maintain composure.
+
+### **2 Specially-Used Cases：Using the last frame to create long shot**
+
+Currently, Hailuo AI can generate 6 seconds of high-quality video, but it is possible to reasonably use the last frame of an existing video as the first frame for text-to-video output, allowing for the continuation and creation of pseudo-long shots that exceed 6 seconds.*(The video sound is post-production.)*
+
+**Example: The segment is excerpted from the HailuoAI promotional video "Magic Wheel."**
+
+**Generated Video 48**
+
+[48.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/0ad887a9-26cf-43a8-8bf5-b9f5087c92e8/48.mp4)
+
+**Step 1**
+
+First, generate the basic action required for the video — the girl raises her hand to touch the Magic Wheel and then lowers her arm.
+
+---
+
+**Generated Video 49**
+
+[49.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/bb812d7d-be6a-41ef-8b96-7cc791434ea5/49.mp4)
+
+**Step 2**
+
+Capture the last frame of the video with the desired effect (see below), and use this final frame as an image for the second text-to-video generation — the camera slowly pulls back, capturing the Magic Wheel as it begins to glow and rotate after being touched by the girl.
+
+[](https://lh7-rt.googleusercontent.com/docsz/AD_4nXct91ysKtweRxTZu7Qu18cZ60HhZDrl-2072FuLo3cP-x-bu0fIfJWMk_kAqnnjnoRia97EfkB_-ZoNMfqAF97EkmTJLfdqILhsd6c1HqJ9_NNQv4ugsW1M2hPxjDphJAY3Y4qQ?key=d7XJrczSua2tuDU55Dqj9da9)
+
+*The last frame of the first generated video*
+
+---
+
+**Generated Video 50**
+
+[50.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/61659063-a804-4a23-b8fd-27d93eb9a148/50.mp4)
+
+**Step 3**
+
+Capture the appropriate frame with the best video effect (see below) and use it as an image for the third text-to-video generation — the Magic Wheel gradually goes out of control, emitting electrical sparks before stopping its operation.
+
+[](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdIjjPqLdKyNUW_KAtsWTDL4bS9OJEKEYDpRgRn7Y9vpX6ergCSpCwDooaj4LbBvv9j2FD2cHkP0gYgh_hZFL3399i4t9lWXV-_vclY0ZWoPBXAX67mJeMU6jnuF10vLjczIAR0HA?key=d7XJrczSua2tuDU55Dqj9da9)
+
+*The last frame of the second generated video*
+
+---
+
+**Generated Video 51**
+
+[51.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/f9e4baba-0c1e-4064-a72a-60f91a567da5/51.mp4)
+
+**Step 4**
+
+Combine the three segments of video editing as described above to obtain a complete 11-second video, showcasing the full action of the girl touching the Magic Wheel, causing its magic to fail.
+
+### **3 Specially-Used Cases： Image composition and seamless blending across transitions**
+
+By combining any two images with an appropriate ratio and then creating an image-to-video, Hailuo AI can seamlessly blend the characters from one image into the other. Once the subject transitions from the original scene to the target scene, the lighting, shadows, and color tones will perfectly match the new scene’s setting. This offers infinite possibilities for deterministic creation in a wide range of high-quality scenarios.
+
+**Generated Video 52**
+
+**Generated Video 53**
+
+[52.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/b7952e06-7906-4693-8b20-2b6bcc9bb570/52.mp4)
+
+[53.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/a85ac3f9-d194-4b47-ba8a-e0d7abb696f0/53.mp4)
+
+**Image**
+
+**Prompt 52**
+
+A woman walks towards the green field, stands on the grass, and gazes at the beautiful lake. The camera slowly moves to the left.
+
+**Image**
+
+**Prompt 53**
+
+The woman walks towards the tent, and the camera slowly moves to the left.
+
+**Generated Video 54**
+
+[54.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/687a8fa7-c744-4850-a28e-0ea3aed5f0ce/54.mp4)
+
+**Image**
+
+**Prompt 54**
+
+The woman walks towards the tent, and the camera slowly moves to the left.
+
+## **Comprehensive Application Case**
+
+**T2V / I2V Comprehensive Application**
+
+- Use text-to-video for scenes or shots that do not require subject stability.
+- Use image-to-video for shots that require precise and stable subject appearance.
+
+Example:**Hailuo AI's Halloween-Themed film *(Video sound is post-production).***
+
+**Shot1: Generated Video 55**
+
+[55.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/493c1b25-4c39-4bb6-a9c3-e464698b6e3c/55.mp4)
+
+**Plot**
+
+Show a chubby man in a green outfit enjoying himself indoors during Halloween, interrupted by a knock on the door.
+
+**Tutorial**
+
+As the first shot of the opening scene, use text-to-video for production. By specifying detailed subject characteristics — **middle-aged, black long hair, green shirt, black glasses, and overweight** — establish a solid foundation for subject description in the subsequent video generation.
+
+---
+
+**Shot2: Generated Video 56**
+
+[56.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/cf1682b7-8f59-443f-b389-919c370541d3/56.mp4)
+
+**Plot**
+
+Indicate that the knocking sound is coming from outside the door.
+
+**Tutorial**
+
+Immediately follow the man's head-turning motion with a point-of-view shot from his perspective, revealing the source of the knocking sound. This is an empty shot with no subject, created using text-to-video, slowly pushing in on a white door.
+
+---
+
+**Shot3: Generated Video 57**
+
+[57.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/673da6db-a110-4fe6-a360-ced6f634842a/57.mp4)
+
+**Plot**
+
+The man scolds and tells the person outside the door to go away.
+
+**Tutorial**
+
+Use a close-up of the man to advance the plot. Since it’s a close-up, only some of the man's features need to be shown. Text-to-video will be used to generate and maintain the subject's description — **black hair, overweight, glasses, green shirt…** ensuring the stability of the subject's appearance.
+
+---
+
+**Shot4: Generated Video 58**
+
+[58.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/2cced4a0-f6f0-4978-a1b4-7ca8c494e5c9/58.mp4)
+
+**Plot**
+
+The knocking sound doesn't stop
+
+**Tutorial**
+
+Provide a close-up of the door, with the knocking sound growing louder. There is still no subject in the frame, and text-to-video is used to generate the close-up shot of the door.
+
+---
+
+**Shot5: Generated Video 59**
+
+[59.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/938b6d0c-9e5e-4338-a164-334990b770a3/59.mp4)
+
+**Plot**
+
+The man reluctantly gets up to open the door.
+
+**Tutorial**
+
+The man needs to transition from his initial state in the first scene to the action of getting up to open the door. The consistency of the subject is crucial here, and it needs to be done under the same scene and lighting conditions. Image-to-video will be used to continue from the last frame of the first shot to ensure the subject's appearance remains stable.
+
+[](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd64eZL22NtfVfpV0uy-c05TFB02qoihcQC66xfvNQ-d-mmrcUJCzJNPVtvwv075hI0Sd7nP0rt4PQdzt4ytEQHeh-KUCHYO56hL1SYYhk2d_SExnAFbwFEmDwZ1Rbl4XLOtAty?key=d7XJrczSua2tuDU55Dqj9da9)
+
+---
+
+**Shot6: Generated Video 60**
+
+[60.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/2048d567-d7a6-4287-a1af-5394f687cb1a/60.mp4)
+
+**Plot**
+
+The man opens the door.
+
+**Tutorial**
+
+Since the full subject does not appear, only partial features of the subject are shown. Use text-to-video to generate a close-up of the man's hand reaching out to open the door.
+
+---
+
+**Shot7: Generated Video 61**
+
+[61.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/b556a94b-0c9e-4141-83fd-0bdc3c0644ef/61.mp4)
+
+**Plot**
+
+The man opens the door and steps out.
+
+**Tutorial**
+
+At this point, the man has stepped outside. Provide a front-facing shot to establish the new scene and environment. Since it’s a completely new setting, use text-to-video to easily generate additional visual elements for the scene. Use similar subject appearance descriptions to maintain consistency in the man’s appearance.
+
+---
+
+**Shot8: Generated Video 62**
+
+[62.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/559bb985-1336-4518-a206-16db6aba8564/62.mp4)
+
+**Plot**
+
+Two little girls in Halloween costumes are standing outside the door, asking the man for candy.
+
+**Tutorial**
+
+This is the first appearance of the two little girl characters. Use text-to-video to generate the scene, selecting the best shot that captures their appearance and expressions as the final footage for the main video.
+
+---
+
+**Shot9: Generated Video 63**
+
+[63.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/41481670-6a6c-471b-874b-4e4fdb26b315/63.mp4)
+
+**Plot**
+
+The man rejects the girls' request for candy with a look of disdain.
+
+**Tutorial**
+
+Here, a over-the-shoulder shot is needed to establish the spatial relationship between the girls and the man, while also showcasing the man’s detailed facial expression. Use text-to-video to generate the scene, selecting the shot and subject expressions that best fit the needs for the final footage.
+
+---
+
+**Shot10: Generated Video 64**
+
+[64.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/149de10e-51d7-4727-8545-5be949d16cff/64.mp4)
+
+**Plot**
+
+The girls reveal their true devilish form, opening their wide mouths as they approach the man.
+
+**Tutorial**
+
+To maintain narrative continuity, the scene needs to be exactly the same as in Shot 8. Use the last frame from Shot 8 as the image for image-to-video generation to ensure the setting remains consistent for this part of the story.
+
+[](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMTloHYE9N_i1lzZjCTPB1BlDJWAh3_0oodnWbVkluVB7MgFNAYHBEkBe4o-F1BsyC2I-zMjO8HE-IRDSQkqgP8hhQKkW4_P_ahi6OFx8U8kTXejzrrbfFmgGBsEQw-tJQeK1zpg?key=d7XJrczSua2tuDU55Dqj9da9)
+
+**Final Film Effect:**
+
+Combine the above storyboard footage in sequence to achieve the complete effect of the first scene.
+
+[65.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/43f367c8-9e53-4af8-ad6b-bd3db1c4d0ac/65.mp4)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d711daf0-52ab-49a9-86d5-843ab6403d79/2f4763cd-2c4d-4487-a51d-1d93529f6abd/image.png)
