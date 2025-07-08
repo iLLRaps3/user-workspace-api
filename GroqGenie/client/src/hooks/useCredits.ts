@@ -76,10 +76,15 @@ export function useCredits() {
     }
   };
 
+  const refreshCredits = () => {
+    queryClient.invalidateQueries({ queryKey: ["/api/credits"] });
+  };
+
   return {
     credits,
     deductCredits,
     addCredits: (amount: number) => addCreditsMutation.mutate(amount),
+    refreshCredits,
     isLoading: deductCreditsMutation.isPending || addCreditsMutation.isPending,
   };
 }

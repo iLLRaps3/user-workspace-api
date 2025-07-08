@@ -10,6 +10,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useGroq } from "@/hooks/useGroq";
 import { CategoryIcons } from "@/lib/constants";
 import { useCredits } from "@/hooks/useCredits";
+import { useAuth } from "@/hooks/useAuth";
 
 interface Message {
   role: "user" | "assistant" | "system";
@@ -21,6 +22,7 @@ export default function Chat() {
   const { user, isAuthenticated } = useAuth();
   const [_, navigate] = useLocation();
   const { credits, refreshCredits } = useCredits();
+  const { toast } = useToast();
   const [match, params] = useRoute("/chat/:id?");
   const chatId = params?.id;
   const messagesEndRef = useRef<HTMLDivElement>(null);

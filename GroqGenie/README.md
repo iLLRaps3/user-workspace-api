@@ -1,6 +1,18 @@
-# AI Video Studio with Groq-Powered Prompt Builder
+# 🎬 GroqGenie - AI Video Studio with Groq-Powered Prompt Builder
 
-A comprehensive AI video generation platform featuring intelligent prompt optimization and advanced video creation capabilities.
+> 🏆 **Hackathon Submission** - A comprehensive AI video generation platform featuring intelligent prompt optimization and advanced video creation capabilities.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com/)
+
+**GroqGenie** transforms simple text prompts into stunning, professional-quality videos using the power of Groq's lightning-fast language models and MiniMax's advanced text-to-video technology.
+
+## 🌟 Live Demo
+- **Production**: [Your Deployment URL]
+- **Demo Video**: [Demo Video Link]
+- **API Documentation**: [API Docs Link]
 
 ## Features
 

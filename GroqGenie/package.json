@@ -1,8 +1,19 @@
 {
-  "name": "rest-express",
+  "name": "groqgenie",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "description": "AI-powered video generation platform with Groq-powered prompt optimization",
+  "keywords": ["ai", "video-generation", "groq", "minimax", "prompt-optimization", "hackathon"],
+  "author": "GroqGenie Team",
+  "homepage": "https://github.com/your-username/groqgenie",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/groqgenie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/groqgenie/issues"
+  },
   "scripts": {
     "dev": "tsx -r dotenv/config server/index.ts",
     "build": "vite build",
